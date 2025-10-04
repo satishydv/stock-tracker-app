@@ -20,25 +20,8 @@ const Layout = async ({ children }: { children : React.ReactNode }) => {
             </section>
 
             <section className="auth-right-section">
-                <div className="z-10 relative lg:mt-4 lg:mb-16">
-                    <blockquote className="auth-blockquote">
-                        Signalist turned my watchlist into a winning list. The alerts are spot-on, and I feel more confident making moves in the market
-                    </blockquote>
-                    <div className="flex items-center justify-between">
-                        <div>
-                            <cite className="auth-testimonial-author">- Ethan R.</cite>
-                            <p className="max-md:text-xs text-gray-500">Retail Investor</p>
-                        </div>
-                        <div className="flex items-center gap-0.5">
-                            {[1, 2, 3, 4, 5].map((star) => (
-                                <Image src="/assets/icons/star.svg" alt="Star" key={star} width={20} height={20} className="w-5 h-5" />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flex-1 relative">
-                    <Image src="/assets/images/dashboard.png" alt="Dashboard Preview" width={1440} height={1150} className="auth-dashboard-preview absolute top-0" />
+                <div className="flex-1 relative flex items-center justify-center pt-8">
+                    <Image src="/assets/images/quat.webp" alt="Dashboard Preview" width={600} height={600} className="w-[600px] h-[600px] object-contain hidden sm:block" />
                 </div>
             </section>
         </main>
